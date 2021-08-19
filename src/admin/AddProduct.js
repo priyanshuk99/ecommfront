@@ -20,7 +20,7 @@ const AddProduct = () => {
         error: "",
         createdProduct: "",
         getaRedirect: false,
-        formData: ""
+        formData: {}
     });
 
     const { name, description, price, stock, photo, categories, category, loading, error, createdProduct, getaRedirect, formData } = values;
