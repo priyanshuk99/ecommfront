@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ecommfront/static/css/main.c07652ae.chunk.css",
+    "main.js": "/ecommfront/static/js/main.c237a382.chunk.js",
+    "main.js.map": "/ecommfront/static/js/main.c237a382.chunk.js.map",
+    "runtime-main.js": "/ecommfront/static/js/runtime-main.7afd6d37.js",
+    "runtime-main.js.map": "/ecommfront/static/js/runtime-main.7afd6d37.js.map",
+    "static/js/2.574dbcd7.chunk.js": "/ecommfront/static/js/2.574dbcd7.chunk.js",
+    "static/js/2.574dbcd7.chunk.js.map": "/ecommfront/static/js/2.574dbcd7.chunk.js.map",
+    "index.html": "/ecommfront/index.html",
+    "static/css/main.c07652ae.chunk.css.map": "/ecommfront/static/css/main.c07652ae.chunk.css.map",
+    "static/js/2.574dbcd7.chunk.js.LICENSE.txt": "/ecommfront/static/js/2.574dbcd7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7afd6d37.js",
+    "static/js/2.574dbcd7.chunk.js",
+    "static/css/main.c07652ae.chunk.css",
+    "static/js/main.c237a382.chunk.js"
+  ]
+}
