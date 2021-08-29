@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { isAutheticated } from '../auth/helper';
 import Base from '../core/Base';
 
-// const { user: { name, email } } = isAutheticated();
+const { user: { name, email } } = isAutheticated();
 
 const adminLeftSide = () => {
     return (
@@ -36,10 +36,10 @@ const adminRightSide = () => {
             <h4 className="card-header">Admin Information</h4>
             <ul className="list-group">
                 <li className="list-group-item">
-                    <span className="badge bg-success me-4">Name:</span>{name}
+                    <span className="badge bg-success me-4">Name:</span>{user.name}
                 </li>
                 <li className="list-group-item">
-                    <span className="badge bg-success me-4">Email:</span>{email}
+                    <span className="badge bg-success me-4">Email:</span>{user.email}
                 </li>
                 <li className="list-group-item">
                     <span className="badge bg-info">Admin Area</span>
