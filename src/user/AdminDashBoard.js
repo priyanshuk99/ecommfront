@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { isAutheticated } from '../auth/helper';
 import Base from '../core/Base';
 
-const { user: { name, email } } = isAutheticated();
+// const { user: { name, email } } = isAutheticated();
 
 const adminLeftSide = () => {
     return (
