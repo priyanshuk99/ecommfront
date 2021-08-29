@@ -24,14 +24,14 @@ export default function Routes() {
                 <Route exact path='/signup' component={Signup} />
                 <Route exact path='/signin' component={Signin} />
                 <Route path="/cart" exact component={Cart} />
-                <PrivateRoute exact path='/user/dashboard' component={UserDashBoard} />
-                <AdminRoute exact path='/admin/dashboard' component={AdminDashBoard} />
-                <AdminRoute exact path='/admin/create/category' component={AddCategory} />
-                <AdminRoute exact path='/admin/categories' component={ManageCategories} />
-                <AdminRoute exact path='/admin/create/product' component={AddProduct} />
-                <AdminRoute exact path='/admin/products' component={ManageProducts} />
-                <AdminRoute exact path='/admin/product/update/:productId' component={UpdateProduct} />
-                <AdminRoute exact path='/admin/category/update/:categoryId' component={UpdateCategory} />
+//                 <PrivateRoute exact path='/user/dashboard' component={UserDashBoard} />
+//                 <AdminRoute exact path='/admin/dashboard' component={AdminDashBoard} />
+//                 <AdminRoute exact path='/admin/create/category' component={AddCategory} />
+//                 <AdminRoute exact path='/admin/categories' component={ManageCategories} />
+//                 <AdminRoute exact path='/admin/create/product' component={AddProduct} />
+//                 <AdminRoute exact path='/admin/products' component={ManageProducts} />
+//                 <AdminRoute exact path='/admin/product/update/:productId' component={UpdateProduct} />
+//                 <AdminRoute exact path='/admin/category/update/:categoryId' component={UpdateCategory} />
 
             </Switch>
         </BrowserRouter>
