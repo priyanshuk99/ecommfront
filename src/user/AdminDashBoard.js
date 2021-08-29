@@ -36,10 +36,10 @@ const adminRightSide = () => {
             <h4 className="card-header">Admin Information</h4>
             <ul className="list-group">
                 <li className="list-group-item">
-                    <span className="badge bg-success me-4">Name:</span>{user.name}
+                    <span className="badge bg-success me-4">Name:</span>{name}
                 </li>
                 <li className="list-group-item">
-                    <span className="badge bg-success me-4">Email:</span>{user.email}
+                    <span className="badge bg-success me-4">Email:</span>{email}
                 </li>
                 <li className="list-group-item">
                     <span className="badge bg-info">Admin Area</span>
